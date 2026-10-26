@@ -1,0 +1,69 @@
+/* Mengatur font dan background halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; /* Warna abu-abu muda */
+    margin: 20px;
+}
+
+/* Mengatur judul agar di tengah */
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+/* Membungkus form dengan kotak putih */
+form {
+    background-color: #ffffff;
+    width: 700px;
+    margin: 0 auto; /* Supaya kotak form berada di tengah layar */
+    padding: 20px;
+    border: 1px solid #999999;
+}
+
+/* Memberikan warna latar belakang pada sub judul */
+h3 {
+    background-color: #cccccc;
+    padding: 5px 10px;
+    color: #000000;
+}
+
+/* Merapikan tabel bawaan */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Menghilangkan jarak antar garis tabel */
+    margin-bottom: 20px;
+}
+
+/* Memberi garis dan jarak pada sel tabel */
+td {
+    border: 1px solid #bbbbbb;
+    padding: 8px;
+}
+
+/* Mengatur lebar dan warna khusus kolom sebelah kiri */
+.kolom-label {
+    width: 35%;
+    background-color: #f2f2f2;
+}
+
+/* Merapikan kotak inputan */
+.input-teks {
+    width: 90%;
+    padding: 4px;
+}
+
+/* Memposisikan tombol di tengah */
+.posisi-tengah {
+    text-align: center;
+    padding: 15px;
+}
+
+/* Desain tombol submit yang sederhana */
+.tombol {
+    background-color: #0066cc; /* Warna biru */
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid #004c99;
+    font-weight: bold;
+    cursor: pointer;
+}

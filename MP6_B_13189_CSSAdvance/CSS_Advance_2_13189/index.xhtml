@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Form Registrasi Pelatihan IT</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+    <h1>Form Registrasi Pelatihan IT</h1>
+
+    <form method="post" action="">
+        
+        <h3>A. Biodata Pendaftar</h3>
+        <table>
+            <tr>
+                <td class="kolom-label"><b>Nama Lengkap (Sesuai KTP/KTM)</b></td>
+                <td><input type="text" name="nama_lengkap" class="input-teks" /></td>
+            </tr>
+            <tr>
+                <td class="kolom-label"><b>Nomor Induk Mahasiswa (NIM)</b></td>
+                <td><input type="text" name="nim" class="input-teks" /></td>
+            </tr>
+            <tr>
+                <td class="kolom-label"><b>Gender</b></td>
+                <td>
+                    <input type="radio" name="jenis_kelamin" value="Laki-laki" /> Laki-laki
+                    <input type="radio" name="jenis_kelamin" value="Perempuan" /> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td class="kolom-label"><b>Pilihan Program Studi</b></td>
+                <td>
+                    <select name="program_studi" class="input-teks">
+                        <option value="Informatika">Informatika</option>
+                        <option value="Sistem Informasi">Sistem Informasi</option>
+                        <option value="Teknik Industri">Teknik Industri</option>
+                        <option value="Teknik Sipil">Teknik Sipil</option>
+                        <option value="Ilmu Komunikasi">Ilmu Komunikasi</option>
+                        <option value="Sosiologi">Sosiologi</option>
+                        <option value="Tenik Kimia">teknik Kimia</option>
+                        <option value="Manejemen">Manejemen</option>
+                        <option value="Akuntansi">Akuntansi</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <h3>B. Detail Workshop</h3>
+        <table>
+            <tr>
+                <td class="kolom-label"><b>Kategori Kepesertaan</b></td>
+                <td>
+                    <input type="radio" name="jenis_peserta" value="Mahasiswa" /> Mahasiswa
+                    <input type="radio" name="jenis_peserta" value="Umum" /> Umum
+                </td>
+            </tr>
+            <tr>
+                <td class="kolom-label"><b>Materi yang Diinginkan</b></td>
+                <td>
+                    <input type="checkbox" name="materi" value="UI/UX Design" /> UI/UX Design <br/>
+                    <input type="checkbox" name="materi" value="Web Development" /> Web Development <br/>
+                    <input type="checkbox" name="materi" value="Data Analysis" /> Data Analysis <br/>
+                    <input type="checkbox" name="materi" value="Data Analysis" /> Blockchain <br/>
+                    <input type="checkbox" name="materi" value="Data Analysis" /> Web 3 <br/>
+                    <input type="checkbox" name="materi" value="Data Analysis" /> AI <br/>
+                </td>
+            </tr>
+        </table>
+
+        <h3>C. Keterangan Tambahan</h3>
+        <table>
+            <tr>
+                <td class="kolom-label"><b>Tujuan Mengikuti Pelatihan</b></td>
+                <td><textarea name="alasan" rows="4" class="input-teks"></textarea></td>
+            </tr>
+            <tr>
+                <td class="kolom-label"><b>Metode Pembayaran</b></td>
+                <td>
+                    <input type="radio" name="jenis_pembayaran" value="QRIS" /> QRIS
+                    <input type="radio" name="jenis_pembayaran" value="Transfer Bank" /> Transfer Bank
+                    <input type="radio" name="jenispembayaran" value="Cash" /> cash
+                </td>
+            </tr>
+            <tr>
+                <td class="kolom-label"><b>Upload Bukti Transfer</b></td>
+                <td><input type="file" name="bukti_pembayaran" /></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="posisi-tengah">
+                    <input type="submit" value="Kirim Formulir" class="tombol" />
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+</html>

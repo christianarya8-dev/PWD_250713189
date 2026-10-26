@@ -1,0 +1,122 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 750px;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #1a4f76;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e1e8ed;
+    padding-bottom: 15px;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table td {
+    padding: 12px 10px;
+    vertical-align: middle;
+    border: none;
+}
+
+.lainnya-prodi-container{
+    margin-top: 12px;
+}
+
+.label-lainnya{
+    display: block;
+    font-size: 13px;
+    color: #718096;
+    margin-bottom: 6px;
+    font-style: italic;
+}
+
+.align-top{
+    vertical-align: top !important;
+    padding-top: 20px !important;
+}
+
+.form-table td:first-child {
+    width: 35%;
+    font-weight: 600;
+    color: #4a5568;
+}
+
+.input-text, .input-select, .input-textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.input-text:focus, .input-select:focus, .input-textarea:focus {
+    border-color: #3182ce;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+}
+
+.radio-group label, .checkbox-section label {
+    margin-right: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #4a5568;
+}
+
+.checkbox-section {
+    margin-bottom: 12px;
+}
+
+.section-title {
+    display: block;
+    font-size: 13px;
+    color: #718096;
+    margin-bottom: 6px;
+    font-style: italic;
+}
+
+.input-file {
+    font-size: 14px;
+    color: #4a5568;
+}
+
+.submit-row {
+    text-align: center;
+    padding-top: 25px !important;
+}
+
+.btn-submit {
+    background-color: #3182ce;
+    color: #ffffff;
+    border: none;
+    padding: 12px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+    background-color: #2b6cb0;
+}
