@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+
+<head>
+    <title>From keluhan Pelanggan (XHTML)</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+        function fn_ValForm() {
+            var sMsg ="";
+
+            if (document.getElementById("nama").value == ""){
+                sMsg += "\n* Anda belum mengisikan nama";
+            }
+            if (document.getElementById("pesanan").value ==""){
+                sMsg += "\n* Anda belum mengisikan nomor pesanan";
+            }
+            if (document.getElementById("keluhan").value == ""){
+                sMsg += "\n* Anda belum mengisikan keluhan";
+            }
+
+            if (sMsg != ""){
+                alert("Peringatan:\n" + sMsg);
+                return false;
+            }else{
+                return true;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Form keluhan Pelanggaran</h1>
+    <form action="#" method="post" onsubmit="return fn_ValForm();">
+        <p>Nama Pelanggan:<br /><input type="text" id="nama" name="nama"/></p>
+        <p>Nomor Pesanan:<br /><input type="text" id="pesanan" name="pesana" /></p>
+        <p>Keluhan:<br /><textarea id="keluhan" name="keluhan" rows="4" cols="30"></textarea></p>
+        <P><input type="submit" value="Send" /></P>
+    </form>
+</body>
+
+</html>

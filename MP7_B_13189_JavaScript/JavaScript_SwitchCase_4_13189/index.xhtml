@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+
+<head>
+    <title>switch-Case: Metode Pembayaran</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+        var sInput;
+
+        sInput = prompt("Pilih Pembayaran: (T)ransfer, (Q)ris, (C)OD, (K)artu Kredit", "T");
+
+        switch(sInput){
+            case "T":
+                alert("Pemabayaran via Transfer bank");
+                break;
+           case "Q":
+                alert("Pemabayaran via Qris");
+                break;
+           case "C":
+                alert("Pemabayaran di tempat (COD)");
+                break;
+           case "K":
+                alert("Pemabayaran via kartu Krredit");
+                break;
+           default:
+                alert("metode pembayaran tidak di kenal");
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Switch-case: Metode pembayaran</h1>
+    <p>Reload halaman untuk mencoba lagi.</p>
+</body>
+
+</html>
